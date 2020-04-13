@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="admin/_fragments :: head(~{::title})">
+  <title>博客管理</title>
+</head>
+<body>
+
+  <!--导航-->
+  <nav th:replace="admin/_fragments :: menu(0)"></nav>
+
+
+  <!--中间内容-->
+  <div  class="m-container-small m-padded-big">
+    <div class="ui container">
+      <div class="ui success large  message">
+        <h3>Hi,</h3>
+        <p>刘佳旭，欢迎登录！</p>
+      </div>
+
+      <img src="https://picsum.photos/800/450/?image=1027" alt="" class="ui rounded bordered fluid image">
+    </div>
+  </div>
+
+  <br>
+  <br>
+
+  <!--底部footer-->
+  <!-- <footer th:replace="admin/_fragments :: footer"></footer>-->
+
+  <th:block th:replace="admin/_fragments :: script"/>
+
+  <script>
+
+    $('.ui.dropdown').dropdown({
+      on : 'hover'
+    });
+
+  </script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="_fragments :: head(~{::title})">
+    <title>归档</title>
+</head>
+<body>
+    <!--导航栏--------------------------------------------->
+    <nav th:replace="_fragments :: menu(4)"></nav>
+    
+
+    <!--中间内容------------------------------------------>
+    <div class="m-container-small m-padded-large animated bounceInLeft" style="height: 800px!important;">
+        <div class="ui container">
+            <!--中间内容上面的导航 ---->
+            <div class="ui top attached padded segment">
+                <div class="ui middle aligned two column grid">
+                    <div class="column">
+                        <h3 class="ui teal header">归档</h3>
+                    </div>
+                    <div class="right aligned column">
+                        共 <h2 class="ui orange header m-inline-block m-text-thin" th:text="${blogCount}"> 19 </h2> 篇博客
+                    </div>
+                </div>
+            </div>
+
+            <!-- 中间内容具体内容 -->
+            <th:block th:each="map : ${archiveMap}">
+            <div class="ui teal segment">
+                <h3 class="ui center aligned header" th:text="${map.key}">2020</h3>
+                <div class="ui fluid vertical menu">
+                    <a href="#" th:href="@{/blog/{id}(id=${blog.id})}" class="item" th:each="blog : ${map.value}">
+                        <span>
+                            <i class="teal circle icon"></i><span th:text="${blog.title}">java</span>
+                            <!--<div class="ui teal basic left pointing label m-padded-mini" th:text="${#dates.format(blog.createTime,'MMMdd')}">9月03日</div>-->
+                        </span>
+                        <div class="ui teal basic left pointing label m-padded-mini" th:text="${blog.flag}">原创</div>
+                    </a>
+                </div>
+            </div>
+
+            <!--    <div class="ui bottom attached segment animated bounceInUp" th:if="${map.value.totalPages}>1">
+                    <div class="ui middle aligned two column grid">
+                        <div class="column">
+                            <a href="#" th:href="@{/archives/(page=${map.value.number}-1)}" th:unless="${map.value.first}"
+                               class="ui mini teal basic button">上一页</a>
+                        </div>
+                        <div class="right aligned column">
+                            <a href="#" th:href="@{/archives/(page=${map.value.number}+1)}" th:unless="${map.value.last}"
+                               class="ui mini teal basic button">下一页</a>
+                        </div>
+                    </div>
+                </div>-->
+
+            </th:block>
+
+
+        </div>
+    </div>
+   
+	<br>
+    <br>
+    <br>
+    <!--底部内容-->
+    <footer th:replace="_fragments :: footer"></footer>
+
+    <th:block th:replace="_fragments :: script"/>
+
+</body>
+</html>

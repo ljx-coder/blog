@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="_fragments :: head(~{::title})">
+    <title>分类</title>
+</head>
+<body>
+    <!--导航栏--------------------------------------------->
+	<nav th:replace="_fragments :: menu(2)"></nav>
+
+    <!--中间内容------------------------------------------>
+    <div class="m-container m-padded-big">
+        <div class="ui container">
+			<div class="ui stackable grid">
+				<div class="eleven wide column">
+					<!--中间内容上面的导航---->
+					<div class="ui top attached segment animated bounceInLeft">
+						<div class="ui middle aligned two column grid">
+							<div class="column">
+								<h3 class="ui teal header">分类</h3>
+							</div>
+							<div class="right aligned column">
+								共 <h2 class="ui orange header m-inline-block m-text-thin" th:text="${#arrays.length(types)}"> 14 </h2> 个
+							</div>
+						</div>
+					</div>
+
+					<!-- 中间内容 标签的具体内容 -->
+					<div class="ui attached segment m-padded-large animated bounceInLeft">
+						<div class="ui labeled button m-margin-small" th:each="type : ${types}">
+							<a href="#" th:href="@{/types/{id}(id=${type.id})}" class="ui mini basic button" th:classappend="${type.id==activeTypeId} ? 'teal'"  th:text="${type.name}">思考与感悟</a>
+							<div class="ui mini basic left pointing label" th:classappend="${type.id==activeTypeId} ? 'teal'"  th:text="${#arrays.length(type.blogs)}">24</div>
+						</div>
+					</div>
+
+					<!-- 中间内容 选中标签的内容-->
+					<!-- 博客内容的具体的博客信息-->
+					<div class="ui top attached teal segment animated bounceInLeft"
+						 th:each="blog : ${page.content}">
+						<div class="ui padded vertical segment m-padded">
+							<div class="ui middle aligned mobile  stackable grid">
+								<div class="four wide column">
+									<a href="#" th:href="@{/blog/{id}(id=${blog.id})}">
+										<img th:src="@{${blog.firstPicture}}" alt="" class="ui rounded image">
+									</a>
+								</div>
+								<div class="twelve wide column">
+									<h3 class="ui header"><a class="m-black" th:href="@{/blog/{id}(id=${blog.id})}"
+															 th:text="${blog.title}">JVM内存模型</a>
+										<div class="ui basic left pointing label m-padded-mini" th:classappend="${blog.flag=='原创'} ? 'teal' : 'orange'" th:text="${blog.flag}">原创</div>
+									</h3>
+									<p class="m-text" th:text="|${blog.description}......|">&nbsp;&nbsp;&nbsp;最近学习了一下JVM的内存模型，本来想自己写一篇学习心得</p>
+								</div>
+
+								<div class="eleven wide column ">
+									<div class="ui mini horizontal link list">
+										<div class="item">
+											<!--<img th:src="@{${blog.user.avator}}" alt="" class="ui avatar image" />-->
+											<img th:src="@{/images/tou.jpg}" alt=""
+												 class="ui avatar image"/>
+											<div class="content" th:text="${blog.user.nickname}">
+												<a href="#" class="header">ljx</a>
+											</div>
+										</div>
+										<div class="item">
+											<i class="calendar icon"></i>
+											<span th:text="${#dates.format(blog.updateTime,'yyyy-MM-dd HH:mm')}"> 2020-01-01</span>
+										</div>
+										<div class="item">
+											<i class="comment alternate icon"></i>
+											<span th:text="${#arrays.length(blog.comments)}">100</span>
+										</div>
+										<div class="item">
+											<i class="eye icon"></i>
+											<span th:text="${blog.views}">1000</span>
+										</div>
+										<div class="item">
+											<a href="#" th:href="@{/tags/{id}(id=${tag.id})}" th:each="tag : ${blog.tags}" th:text="${tag.name}" class="ui teal basic left pointing label m-padded-mini m-text-thin">java</a>
+										</div>
+									</div>
+								</div>
+								<div class="right aligned five wide column">
+									<a href="#" th:href="@{/types/{id}(id=${blog.type.id})}" class="ui teal basic m-padded-all-mini m-text-thin label"
+									   th:text="${blog.type.name}">认知升级</a>
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+					<!-- 中间内容底部的翻页效果--->
+					<div class="ui bottom attached segment animated bounceInUp" th:if="${page.totalPages}>1">
+						<div class="ui middle aligned two column grid">
+							<div class="column">
+								<a href="#" th:href="@{'/types/'+${activeTypeId}(page=${page.number}-1)}" th:unless="${page.first}"
+								   class="ui mini teal basic button">上一页</a>
+							</div>
+							<div class="right aligned column">
+								<a href="#" th:href="@{'/types/'+${activeTypeId}(page=${page.number}+1)}" th:unless="${page.last}"
+								   class="ui mini teal basic button">下一页</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="five wide column animated bounceInRight">
+
+					<!-- 标签模块 -->
+					<div class="ui segments ">
+						<div class="ui teal secondary segment">
+							<div class="ui two column grid">
+								<div class="column">
+									<i class="tags icon"></i>标签
+								</div>
+								<div class="right aligned column">
+									<a href="#" th:href="@{/tags/-1}">MORE <i class="angle double right icon"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="ui segment">
+							<a th:href="@{/tags/{id}(id=${tag.id})}" th:each="tag : ${tags}"
+							   class="ui teal basic left pointing label m-margin-small">
+								<span th:text="${tag.name}">SpringBoot</span>
+								<div th:text="${#arrays.length(tag.blogs)}" class="detail">23</div>
+							</a>
+						</div>
+					</div>
+
+					<!-- 最新推荐模块 -->
+					<div class="ui segments m-margin-top-large">
+						<div class="ui secondary segment">
+							<i class="bookmark icon"></i>最新推荐
+						</div>
+						<div class="ui segment" th:each="blog : ${recommendBlogs}">
+							<a th:href="@{/blog/{id}(id=${blog.id})}" class="item m-text-thin"
+							   th:text="${blog.title}">java内存模型</a>
+						</div>
+					</div>
+
+					<!--归档模块-->
+					<div class="ui segments m-margin-top-large">
+						<div class="ui teal secondary segment">
+							<i class="calendar check icon"></i>归档
+						</div>
+						<div class="ui attached fluid vertical menu">
+							<a class="item m-text-thin" th:each="map : ${archiveCountMap}">
+								<span th:href="@{/archives}" th:text="${map.key}">2020-3</span>
+								<div class="ui teal basic left pointing label" th:text="${map.value}">
+									13
+								</div>
+							</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+        </div>
+    </div>
+    
+	<br>
+	<br>
+    <!--底部内容-->
+	<footer th:replace="_fragments :: footer"></footer>
+
+	<th:block th:replace="_fragments :: script"/>
+
+</body>
+</html>

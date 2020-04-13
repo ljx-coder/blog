@@ -1,0 +1,294 @@
+2020-04-02 12:30:13.134 [ restartedMain ] - [ INFO  ] [ com.ljx.blog.BlogApplication : 55 ] - Starting BlogApplication on THINK-PC with PID 13104 (started by LIUJIAXU in D:\桌面\blog)
+2020-04-02 12:30:13.138 [ restartedMain ] - [ DEBUG ] [ com.ljx.blog.BlogApplication : 56 ] - Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-02 12:30:13.139 [ restartedMain ] - [ INFO  ] [ com.ljx.blog.BlogApplication : 655 ] - The following profiles are active: dev
+2020-04-02 12:30:14.962 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8081"]
+2020-04-02 12:30:14.963 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-04-02 12:30:14.963 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-02 12:30:15.070 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-04-02 12:30:15.084 [ restartedMain ] - [ INFO  ] [ com.ljx.blog.config.DruidConfig : 45 ] - init Druid Servlet Configuration 
+2020-04-02 12:30:15.213 [ restartedMain ] - [ ERROR ] [ com.alibaba.druid.filter.FilterManager : 117 ] - load filter error, filter not found : {stat
+2020-04-02 12:30:15.222 [ restartedMain ] - [ ERROR ] [ com.alibaba.druid.filter.FilterManager : 117 ] - load filter error, filter not found : log4j}
+2020-04-02 12:30:15.337 [ restartedMain ] - [ INFO  ] [ org.hibernate.jpa.internal.util.LogHelper : 31 ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-02 12:30:15.416 [ restartedMain ] - [ INFO  ] [ org.hibernate.Version : 44 ] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-02 12:30:15.543 [ restartedMain ] - [ INFO  ] [ org.hibernate.annotations.common.Version : 49 ] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-02 12:30:15.830 [ restartedMain ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 930 ] - {dataSource-1} inited
+2020-04-02 12:30:15.840 [ restartedMain ] - [ INFO  ] [ org.hibernate.dialect.Dialect : 172 ] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-02 12:30:16.050 [ restartedMain ] - [ INFO  ] [ o.h.e.t.jta.platform.internal.JtaPlatformInitiator : 52 ] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-02 12:30:16.780 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8081"]
+2020-04-02 12:30:16.810 [ restartedMain ] - [ INFO  ] [ com.ljx.blog.BlogApplication : 61 ] - Started BlogApplication in 4.432 seconds (JVM running for 6.609)
+2020-04-02 12:35:10.853 [ http-nio-8081-exec-6 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-02 14:42:16.622 [ Thread-5 ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 1825 ] - {dataSource-1} closed
+2020-04-02 14:42:17.902 [ restartedMain ] - [ INFO  ] [ com.ljx.blog.BlogApplication : 55 ] - Starting BlogApplication on THINK-PC with PID 13104 (started by LIUJIAXU in D:\桌面\blog)
+2020-04-02 14:42:17.902 [ restartedMain ] - [ DEBUG ] [ com.ljx.blog.BlogApplication : 56 ] - Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-02 14:42:17.902 [ restartedMain ] - [ INFO  ] [ com.ljx.blog.BlogApplication : 655 ] - The following profiles are active: dev
+2020-04-02 14:42:18.492 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8081"]
+2020-04-02 14:42:18.492 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-04-02 14:42:18.492 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-02 14:42:18.519 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-04-02 14:42:18.525 [ restartedMain ] - [ INFO  ] [ com.ljx.blog.config.DruidConfig : 45 ] - init Druid Servlet Configuration 
+2020-04-02 14:42:18.561 [ restartedMain ] - [ ERROR ] [ com.alibaba.druid.filter.FilterManager : 117 ] - load filter error, filter not found : {stat
+2020-04-02 14:42:18.562 [ restartedMain ] - [ ERROR ] [ com.alibaba.druid.filter.FilterManager : 117 ] - load filter error, filter not found : slf4j}
+2020-04-02 14:42:18.604 [ restartedMain ] - [ INFO  ] [ org.hibernate.jpa.internal.util.LogHelper : 31 ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-02 14:42:18.653 [ restartedMain ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 930 ] - {dataSource-2} inited
+2020-04-02 14:42:18.653 [ restartedMain ] - [ INFO  ] [ org.hibernate.dialect.Dialect : 172 ] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-02 14:42:18.679 [ restartedMain ] - [ INFO  ] [ o.h.e.t.jta.platform.internal.JtaPlatformInitiator : 52 ] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-02 14:42:18.976 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8081"]
+2020-04-02 14:42:18.986 [ restartedMain ] - [ INFO  ] [ com.ljx.blog.BlogApplication : 61 ] - Started BlogApplication in 1.149 seconds (JVM running for 7928.787)
+2020-04-02 14:45:54.290 [ restartedMain ] - [ INFO  ] [ com.ljx.blog.BlogApplication : 55 ] - Starting BlogApplication on THINK-PC with PID 13308 (started by LIUJIAXU in D:\桌面\blog)
+2020-04-02 14:45:54.300 [ restartedMain ] - [ DEBUG ] [ com.ljx.blog.BlogApplication : 56 ] - Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-02 14:45:54.300 [ restartedMain ] - [ INFO  ] [ com.ljx.blog.BlogApplication : 655 ] - The following profiles are active: dev
+2020-04-02 14:45:56.341 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8081"]
+2020-04-02 14:45:56.342 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-04-02 14:45:56.343 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-02 14:45:56.499 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-04-02 14:45:56.518 [ restartedMain ] - [ INFO  ] [ com.ljx.blog.config.DruidConfig : 45 ] - init Druid Servlet Configuration 
+2020-04-02 14:45:56.775 [ restartedMain ] - [ ERROR ] [ com.alibaba.druid.filter.FilterManager : 117 ] - load filter error, filter not found : {stat
+2020-04-02 14:45:56.788 [ restartedMain ] - [ ERROR ] [ com.alibaba.druid.filter.FilterManager : 117 ] - load filter error, filter not found : slf4j}
+2020-04-02 14:45:57.052 [ restartedMain ] - [ INFO  ] [ org.hibernate.jpa.internal.util.LogHelper : 31 ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-02 14:45:57.129 [ restartedMain ] - [ INFO  ] [ org.hibernate.Version : 44 ] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-02 14:45:57.261 [ restartedMain ] - [ INFO  ] [ org.hibernate.annotations.common.Version : 49 ] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-02 14:45:57.571 [ restartedMain ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 930 ] - {dataSource-1} inited
+2020-04-02 14:45:57.580 [ restartedMain ] - [ INFO  ] [ org.hibernate.dialect.Dialect : 172 ] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-02 14:45:57.875 [ restartedMain ] - [ INFO  ] [ o.h.e.t.jta.platform.internal.JtaPlatformInitiator : 52 ] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-02 14:45:58.886 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8081"]
+2020-04-02 14:45:58.916 [ restartedMain ] - [ INFO  ] [ com.ljx.blog.BlogApplication : 61 ] - Started BlogApplication in 5.519 seconds (JVM running for 7.569)
+2020-04-02 14:52:07.984 [ restartedMain ] - [ INFO  ] [ com.ljx.blog.BlogApplication : 55 ] - Starting BlogApplication on THINK-PC with PID 11024 (started by LIUJIAXU in D:\桌面\blog)
+2020-04-02 14:52:07.990 [ restartedMain ] - [ DEBUG ] [ com.ljx.blog.BlogApplication : 56 ] - Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-02 14:52:07.990 [ restartedMain ] - [ INFO  ] [ com.ljx.blog.BlogApplication : 655 ] - The following profiles are active: dev
+2020-04-02 14:52:09.991 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8081"]
+2020-04-02 14:52:09.992 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-04-02 14:52:09.992 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-02 14:52:10.112 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-04-02 14:52:10.129 [ restartedMain ] - [ INFO  ] [ com.ljx.blog.config.DruidConfig : 45 ] - init Druid Servlet Configuration 
+2020-04-02 14:52:10.306 [ restartedMain ] - [ ERROR ] [ com.alibaba.druid.filter.FilterManager : 117 ] - load filter error, filter not found : {stat
+2020-04-02 14:52:10.306 [ restartedMain ] - [ ERROR ] [ com.alibaba.druid.filter.FilterManager : 117 ] - load filter error, filter not found : wall}
+2020-04-02 14:52:10.531 [ restartedMain ] - [ INFO  ] [ org.hibernate.jpa.internal.util.LogHelper : 31 ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-02 14:52:10.609 [ restartedMain ] - [ INFO  ] [ org.hibernate.Version : 44 ] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-02 14:52:10.848 [ restartedMain ] - [ INFO  ] [ org.hibernate.annotations.common.Version : 49 ] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-02 14:52:11.133 [ restartedMain ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 930 ] - {dataSource-1} inited
+2020-04-02 14:52:11.141 [ restartedMain ] - [ INFO  ] [ org.hibernate.dialect.Dialect : 172 ] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-02 14:52:11.403 [ restartedMain ] - [ INFO  ] [ o.h.e.t.jta.platform.internal.JtaPlatformInitiator : 52 ] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-02 14:52:12.335 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8081"]
+2020-04-02 14:52:12.365 [ restartedMain ] - [ INFO  ] [ com.ljx.blog.BlogApplication : 61 ] - Started BlogApplication in 5.106 seconds (JVM running for 7.262)
+2020-04-02 14:52:32.931 [ restartedMain ] - [ INFO  ] [ com.ljx.blog.BlogApplication : 55 ] - Starting BlogApplication on THINK-PC with PID 12944 (started by LIUJIAXU in D:\桌面\blog)
+2020-04-02 14:52:32.931 [ restartedMain ] - [ DEBUG ] [ com.ljx.blog.BlogApplication : 56 ] - Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-02 14:52:32.931 [ restartedMain ] - [ INFO  ] [ com.ljx.blog.BlogApplication : 655 ] - The following profiles are active: dev
+2020-04-02 14:52:34.640 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8081"]
+2020-04-02 14:52:34.641 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-04-02 14:52:34.641 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-02 14:52:34.748 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-04-02 14:52:34.765 [ restartedMain ] - [ INFO  ] [ com.ljx.blog.config.DruidConfig : 45 ] - init Druid Servlet Configuration 
+2020-04-02 14:52:35.077 [ restartedMain ] - [ INFO  ] [ org.hibernate.jpa.internal.util.LogHelper : 31 ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-02 14:52:35.148 [ restartedMain ] - [ INFO  ] [ org.hibernate.Version : 44 ] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-02 14:52:35.264 [ restartedMain ] - [ INFO  ] [ org.hibernate.annotations.common.Version : 49 ] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-02 14:52:35.536 [ restartedMain ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 930 ] - {dataSource-1} inited
+2020-04-02 14:52:35.544 [ restartedMain ] - [ INFO  ] [ org.hibernate.dialect.Dialect : 172 ] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-02 14:52:35.789 [ restartedMain ] - [ INFO  ] [ o.h.e.t.jta.platform.internal.JtaPlatformInitiator : 52 ] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-02 14:52:36.687 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8081"]
+2020-04-02 14:52:36.719 [ restartedMain ] - [ INFO  ] [ com.ljx.blog.BlogApplication : 61 ] - Started BlogApplication in 4.386 seconds (JVM running for 6.489)
+2020-04-02 14:53:48.459 [ restartedMain ] - [ INFO  ] [ com.ljx.blog.BlogApplication : 55 ] - Starting BlogApplication on THINK-PC with PID 11432 (started by LIUJIAXU in D:\桌面\blog)
+2020-04-02 14:53:48.462 [ restartedMain ] - [ DEBUG ] [ com.ljx.blog.BlogApplication : 56 ] - Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-02 14:53:48.463 [ restartedMain ] - [ INFO  ] [ com.ljx.blog.BlogApplication : 655 ] - The following profiles are active: dev
+2020-04-02 14:53:50.154 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8081"]
+2020-04-02 14:53:50.154 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-04-02 14:53:50.154 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-02 14:53:50.264 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-04-02 14:53:50.274 [ restartedMain ] - [ INFO  ] [ com.ljx.blog.config.DruidConfig : 45 ] - init Druid Servlet Configuration 
+2020-04-02 14:53:50.600 [ restartedMain ] - [ INFO  ] [ org.hibernate.jpa.internal.util.LogHelper : 31 ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-02 14:53:50.661 [ restartedMain ] - [ INFO  ] [ org.hibernate.Version : 44 ] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-02 14:53:50.765 [ restartedMain ] - [ INFO  ] [ org.hibernate.annotations.common.Version : 49 ] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-02 14:53:51.035 [ restartedMain ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 930 ] - {dataSource-1} inited
+2020-04-02 14:53:51.035 [ restartedMain ] - [ INFO  ] [ org.hibernate.dialect.Dialect : 172 ] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-02 14:53:51.285 [ restartedMain ] - [ INFO  ] [ o.h.e.t.jta.platform.internal.JtaPlatformInitiator : 52 ] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-02 14:53:52.255 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8081"]
+2020-04-02 14:53:52.295 [ restartedMain ] - [ INFO  ] [ com.ljx.blog.BlogApplication : 61 ] - Started BlogApplication in 4.429 seconds (JVM running for 6.739)
+2020-04-02 14:54:21.597 [ restartedMain ] - [ INFO  ] [ com.ljx.blog.BlogApplication : 55 ] - Starting BlogApplication on THINK-PC with PID 11508 (started by LIUJIAXU in D:\桌面\blog)
+2020-04-02 14:54:21.600 [ restartedMain ] - [ DEBUG ] [ com.ljx.blog.BlogApplication : 56 ] - Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-02 14:54:21.601 [ restartedMain ] - [ INFO  ] [ com.ljx.blog.BlogApplication : 655 ] - The following profiles are active: dev
+2020-04-02 14:54:23.294 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8081"]
+2020-04-02 14:54:23.294 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-04-02 14:54:23.294 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-02 14:54:23.414 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-04-02 14:54:23.424 [ restartedMain ] - [ INFO  ] [ com.ljx.blog.config.DruidConfig : 45 ] - init Druid Servlet Configuration 
+2020-04-02 14:54:23.603 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2020-04-02 14:54:51.575 [ restartedMain ] - [ INFO  ] [ com.ljx.blog.BlogApplication : 55 ] - Starting BlogApplication on THINK-PC with PID 4800 (started by LIUJIAXU in D:\桌面\blog)
+2020-04-02 14:54:51.580 [ restartedMain ] - [ DEBUG ] [ com.ljx.blog.BlogApplication : 56 ] - Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-02 14:54:51.581 [ restartedMain ] - [ INFO  ] [ com.ljx.blog.BlogApplication : 655 ] - The following profiles are active: dev
+2020-04-02 14:54:53.384 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8081"]
+2020-04-02 14:54:53.385 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-04-02 14:54:53.385 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-02 14:54:53.490 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-04-02 14:54:53.501 [ restartedMain ] - [ INFO  ] [ com.ljx.blog.config.DruidConfig : 45 ] - init Druid Servlet Configuration 
+2020-04-02 14:54:53.826 [ restartedMain ] - [ INFO  ] [ org.hibernate.jpa.internal.util.LogHelper : 31 ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-02 14:54:53.886 [ restartedMain ] - [ INFO  ] [ org.hibernate.Version : 44 ] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-02 14:54:53.996 [ restartedMain ] - [ INFO  ] [ org.hibernate.annotations.common.Version : 49 ] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-02 14:54:54.256 [ restartedMain ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 930 ] - {dataSource-1} inited
+2020-04-02 14:54:54.266 [ restartedMain ] - [ INFO  ] [ org.hibernate.dialect.Dialect : 172 ] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-02 14:54:54.506 [ restartedMain ] - [ INFO  ] [ o.h.e.t.jta.platform.internal.JtaPlatformInitiator : 52 ] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-02 14:54:55.554 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8081"]
+2020-04-02 14:54:55.587 [ restartedMain ] - [ INFO  ] [ com.ljx.blog.BlogApplication : 61 ] - Started BlogApplication in 4.6 seconds (JVM running for 6.588)
+2020-04-02 14:56:19.030 [ http-nio-8081-exec-6 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-02 14:56:51.275 [ Thread-5 ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 1825 ] - {dataSource-1} closed
+2020-04-02 14:56:53.842 [ restartedMain ] - [ INFO  ] [ com.ljx.blog.BlogApplication : 55 ] - Starting BlogApplication on THINK-PC with PID 4800 (started by LIUJIAXU in D:\桌面\blog)
+2020-04-02 14:56:53.842 [ restartedMain ] - [ DEBUG ] [ com.ljx.blog.BlogApplication : 56 ] - Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-02 14:56:53.842 [ restartedMain ] - [ INFO  ] [ com.ljx.blog.BlogApplication : 655 ] - The following profiles are active: dev
+2020-04-02 14:56:55.089 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8081"]
+2020-04-02 14:56:55.089 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-04-02 14:56:55.090 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-02 14:56:55.136 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-04-02 14:56:55.159 [ restartedMain ] - [ INFO  ] [ com.ljx.blog.config.DruidConfig : 45 ] - init Druid Servlet Configuration 
+2020-04-02 14:56:55.619 [ restartedMain ] - [ INFO  ] [ org.hibernate.jpa.internal.util.LogHelper : 31 ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-02 14:56:55.709 [ restartedMain ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 930 ] - {dataSource-2} inited
+2020-04-02 14:56:55.711 [ restartedMain ] - [ INFO  ] [ org.hibernate.dialect.Dialect : 172 ] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-02 14:56:55.773 [ restartedMain ] - [ INFO  ] [ o.h.e.t.jta.platform.internal.JtaPlatformInitiator : 52 ] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-02 14:56:57.184 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8081"]
+2020-04-02 14:56:57.193 [ restartedMain ] - [ INFO  ] [ com.ljx.blog.BlogApplication : 61 ] - Started BlogApplication in 3.499 seconds (JVM running for 128.195)
+2020-04-02 14:56:57.209 [ http-nio-8081-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-02 14:56:57.298 [ http-nio-8081-exec-1 ] - [ INFO  ] [ com.ljx.blog.aspect.LogAspect : 47 ] - URL:http://localhost:8081/test
+2020-04-02 14:56:57.299 [ http-nio-8081-exec-1 ] - [ INFO  ] [ com.ljx.blog.aspect.LogAspect : 48 ] - IP:127.0.0.1
+2020-04-02 14:56:57.306 [ http-nio-8081-exec-1 ] - [ INFO  ] [ com.ljx.blog.aspect.LogAspect : 49 ] - CLASS_METHOD:com.ljx.blog.controller.TestController.test
+2020-04-02 14:56:57.306 [ http-nio-8081-exec-1 ] - [ INFO  ] [ com.ljx.blog.aspect.LogAspect : 50 ] - ARGS：[]
+2020-04-02 14:56:57.322 [ http-nio-8081-exec-1 ] - [ INFO  ] [ com.ljx.blog.aspect.LogAspect : 70 ] - result:blogs
+2020-04-02 14:56:57.374 [ http-nio-8081-exec-1 ] - [ ERROR ] [ org.thymeleaf.TemplateEngine : 1136 ] - [THYMELEAF][http-nio-8081-exec-1] Exception processing template "blogs": Error resolving template [blogs], template might not exist or might not be accessible by any of the configured Template Resolvers
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [blogs], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2020-04-02 14:56:57.382 [ http-nio-8081-exec-1 ] - [ ERROR ] [ o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] : 175 ] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [blogs], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [blogs], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2020-04-02 14:57:26.994 [ Thread-9 ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 1825 ] - {dataSource-2} closed
+2020-04-02 14:57:28.194 [ restartedMain ] - [ INFO  ] [ com.ljx.blog.BlogApplication : 55 ] - Starting BlogApplication on THINK-PC with PID 4800 (started by LIUJIAXU in D:\桌面\blog)
+2020-04-02 14:57:28.194 [ restartedMain ] - [ DEBUG ] [ com.ljx.blog.BlogApplication : 56 ] - Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-02 14:57:28.194 [ restartedMain ] - [ INFO  ] [ com.ljx.blog.BlogApplication : 655 ] - The following profiles are active: dev
+2020-04-02 14:57:29.002 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8081"]
+2020-04-02 14:57:29.002 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-04-02 14:57:29.012 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-02 14:57:29.042 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-04-02 14:57:29.052 [ restartedMain ] - [ INFO  ] [ com.ljx.blog.config.DruidConfig : 45 ] - init Druid Servlet Configuration 
+2020-04-02 14:57:29.252 [ restartedMain ] - [ INFO  ] [ org.hibernate.jpa.internal.util.LogHelper : 31 ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-02 14:57:29.292 [ restartedMain ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 930 ] - {dataSource-3} inited
+2020-04-02 14:57:29.292 [ restartedMain ] - [ INFO  ] [ org.hibernate.dialect.Dialect : 172 ] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-02 14:57:29.322 [ restartedMain ] - [ INFO  ] [ o.h.e.t.jta.platform.internal.JtaPlatformInitiator : 52 ] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-02 14:57:30.112 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8081"]
+2020-04-02 14:57:30.122 [ restartedMain ] - [ INFO  ] [ com.ljx.blog.BlogApplication : 61 ] - Started BlogApplication in 1.961 seconds (JVM running for 161.124)
+2020-04-02 14:57:36.362 [ http-nio-8081-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-02 14:57:36.394 [ http-nio-8081-exec-1 ] - [ INFO  ] [ com.ljx.blog.aspect.LogAspect : 47 ] - URL:http://localhost:8081/test
+2020-04-02 14:57:36.394 [ http-nio-8081-exec-1 ] - [ INFO  ] [ com.ljx.blog.aspect.LogAspect : 48 ] - IP:0:0:0:0:0:0:0:1
+2020-04-02 14:57:36.395 [ http-nio-8081-exec-1 ] - [ INFO  ] [ com.ljx.blog.aspect.LogAspect : 49 ] - CLASS_METHOD:com.ljx.blog.controller.TestController.test
+2020-04-02 14:57:36.395 [ http-nio-8081-exec-1 ] - [ INFO  ] [ com.ljx.blog.aspect.LogAspect : 50 ] - ARGS：[]
+2020-04-02 14:57:36.401 [ http-nio-8081-exec-1 ] - [ INFO  ] [ com.ljx.blog.aspect.LogAspect : 70 ] - result:blog
+2020-04-02 23:34:17.236 [ restartedMain ] - [ INFO  ] [ com.ljx.blog.BlogApplication : 55 ] - Starting BlogApplication on THINK-PC with PID 11524 (started by LIUJIAXU in D:\桌面\blog)
+2020-04-02 23:34:17.239 [ restartedMain ] - [ DEBUG ] [ com.ljx.blog.BlogApplication : 56 ] - Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-02 23:34:17.239 [ restartedMain ] - [ INFO  ] [ com.ljx.blog.BlogApplication : 655 ] - The following profiles are active: dev
+2020-04-02 23:34:19.428 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8081"]
+2020-04-02 23:34:19.429 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-04-02 23:34:19.429 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-02 23:34:19.578 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-04-02 23:34:19.594 [ restartedMain ] - [ INFO  ] [ com.ljx.blog.config.DruidConfig : 45 ] - init Druid Servlet Configuration 
+2020-04-02 23:34:20.058 [ restartedMain ] - [ INFO  ] [ org.hibernate.jpa.internal.util.LogHelper : 31 ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-02 23:34:20.139 [ restartedMain ] - [ INFO  ] [ org.hibernate.Version : 44 ] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-02 23:34:20.320 [ restartedMain ] - [ INFO  ] [ org.hibernate.annotations.common.Version : 49 ] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-02 23:34:20.650 [ restartedMain ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 930 ] - {dataSource-1} inited
+2020-04-02 23:34:20.665 [ restartedMain ] - [ INFO  ] [ org.hibernate.dialect.Dialect : 172 ] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-02 23:34:22.482 [ restartedMain ] - [ INFO  ] [ o.h.e.t.jta.platform.internal.JtaPlatformInitiator : 52 ] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-02 23:34:23.870 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8081"]
+2020-04-02 23:34:23.910 [ restartedMain ] - [ INFO  ] [ com.ljx.blog.BlogApplication : 61 ] - Started BlogApplication in 7.381 seconds (JVM running for 10.165)
